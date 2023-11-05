@@ -19,7 +19,7 @@
   margin: 2vh;
   margin-top: 5vh;
   text-align: center;
-  font-size: 4rem;
+  font-size: max(4vh,4vw);
 }
 
 .parent {
