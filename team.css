@@ -57,7 +57,7 @@ body{
   
   .profile{
     position: absolute;
-    max-width: 98%;
+    max-width: 97.5%;
     width: 294px;
     margin: 3px 3px;
     border-radius: 50px;
@@ -80,6 +80,7 @@ body{
   
   .content {
     padding: 100px 60px 0px 30px;
+    padding-top: min(33.3333%,100px);
     transform: translate3d(0, 0, 26px) scale(0);    
   }
   
@@ -87,13 +88,13 @@ body{
     display: block;
     color: rgb(245, 245, 245);
     font-weight: 900;
-    font-size: 20px;
+    font-size: min(2.8vh,20px);
   }
   
   .content .text {
     display: block;
     color: rgba(245, 1245, 245, 0.7647058824);
-    font-size: 15px;
+    font-size: min(2vh,15px);
     margin-top: 20px;
   }
   
@@ -117,6 +118,7 @@ body{
   }
   
   .bottom .social-buttons-container .social-button {
+    max-width: 8.5vw;
     width: 30px;
     aspect-ratio: 1;
     padding: 5px;
@@ -166,6 +168,7 @@ body{
   } */
   
   .logo {
+    width: 100%;
     position: absolute;
     right: 0;
     top: 0;
@@ -214,13 +217,14 @@ body{
   .logo .circle4 {
     width: 80px;
     transform: translate3d(0, 0, 80px);
-  
+    max-width: 26.66667%;
     top: 23px;
     right: 23px;
     transition-delay: 0s;
   }
   
   .logo .circle5 {
+    max-width: 16.6667%;
     width: 50px;
     transform: translate3d(0, 0, 100px);
     top:30px;
