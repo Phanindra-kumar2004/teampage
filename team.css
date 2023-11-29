@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body{
+  background-color: midnightblue;
+}
+
 .cards1{
   margin-top: 5vh;
     max-width: 90%;
@@ -14,12 +18,22 @@
     justify-content: space-evenly;
 }
 
-.heading{
+.heading1{
+  color: gold;
   text-transform: uppercase;
   margin: 2vh;
   margin-top: 5vh;
   text-align: center;
-  font-size: max(4vh,4vw);
+  font-size: max(4.5vh,4vw);
+}
+
+.heading{
+  color: gold;
+  text-transform: uppercase;
+  margin: 2vh;
+  margin-top: 6vh;
+  text-align: center;
+  font-size: max(4.5vh,3.5vw);
 }
 
 .parent {
