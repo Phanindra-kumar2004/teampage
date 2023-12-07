@@ -19,8 +19,8 @@ img {
   position: absolute;
   width: 60px;
   height: 120px;
-  top: 25px;
-  left: 25px;
+  top: 30%;
+  left: 3%;
   transition-duration: 0.5s;
 }
 .navToggle6 .icon {
@@ -90,7 +90,7 @@ img {
 }
 
 .navbar {
-  width: max(25%, 300px);
+  width: max(30%, 300px);
   list-style-type: none;
   margin-top: 10px;
   padding: 15px;
@@ -100,7 +100,7 @@ img {
   height: 100vh;
   position: absolute;
   line-height: 60px;
-  font-size: max(3vh,3vw);
+  font-size: max(3vh,2.5vw);
   z-index: 9999;
   font-family: "Oswald", sans-serif;
   -webkit-box-shadow: 0 0 15px 5px #000;
@@ -117,6 +117,7 @@ a {
 li {
   width: 100%;
   cursor: pointer;
+  padding: 0.5%;
 }
 li:hover {
   background: black;
