@@ -90,7 +90,7 @@ img {
 }
 
 .navbar {
-  width: 300px;
+  width: max(25%, 300px);
   list-style-type: none;
   margin-top: 10px;
   padding: 15px;
@@ -100,7 +100,7 @@ img {
   height: 100vh;
   position: absolute;
   line-height: 60px;
-  font-size: 30px;
+  font-size: max(3vh,3vw);
   z-index: 9999;
   font-family: "Oswald", sans-serif;
   -webkit-box-shadow: 0 0 15px 5px #000;
