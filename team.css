@@ -100,7 +100,7 @@ img {
   height: 100vh;
   position: absolute;
   line-height: 60px;
-  font-size: max(3vh,2.5vw);
+  font-size: min(2.8vh,20px);
   z-index: 9999;
   font-family: "Oswald", sans-serif;
   -webkit-box-shadow: 0 0 15px 5px #000;
